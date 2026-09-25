@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability
-    url: mailto:privacy@contact.crowdtune.live
-    about: Please report security problems privately by email, not in a public issue.
+    url: https://crowdtune.live/legal
+    about: Please report security problems privately to privacy@contact.crowdtune.live, not in a public issue.
   - name: Abusive or illegal content in an event
-    url: mailto:abuse@contact.crowdtune.live
-    about: Use Report inside the event, or email us.
+    url: https://crowdtune.live/content-policy
+    about: Use Report inside the event, or email abuse@contact.crowdtune.live.
   - name: Your data or your account
-    url: mailto:privacy@contact.crowdtune.live
-    about: Access, correction or deletion requests.
+    url: https://crowdtune.live/privacy
+    about: For access, correction or deletion, email privacy@contact.crowdtune.live.
