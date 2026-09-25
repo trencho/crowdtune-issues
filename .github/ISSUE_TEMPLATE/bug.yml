@@ -1,0 +1,50 @@
+name: Something is broken
+description: A page, button or feature does not work the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting. Please leave out email addresses, guest-pass links and other personal data.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, and what went wrong.
+      placeholder: I tapped Vote on a song and the count went back down a second later.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Were you the host or a guest?
+      options:
+        - Guest
+        - Host
+        - Watching the big screen
+        - Not in an event
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 15, Safari 18
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When did it happen?
+      description: Roughly, with your time zone. It helps us find the matching error report.
+      placeholder: 25 September, about 21:30 CEST
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots help. Crop out other people's names.

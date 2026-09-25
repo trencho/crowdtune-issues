@@ -1,0 +1,37 @@
+name: A song will not play, or the big screen misbehaves
+description: Playback, the queue order or the big-screen display.
+labels: [playback]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      placeholder: The top song was skipped with "can't be played here" and the next one started.
+    validations:
+      required: true
+  - type: input
+    id: song
+    attributes:
+      label: Which song?
+      description: The title as CrowdTune showed it, or the YouTube link.
+  - type: dropdown
+    id: screen
+    attributes:
+      label: What was showing the big screen?
+      options:
+        - Laptop or desktop browser
+        - Smart TV browser
+        - Tablet
+        - Phone
+        - Something else
+  - type: input
+    id: browser
+    attributes:
+      label: Browser on the big screen
+      placeholder: Chrome 140 on Windows
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
